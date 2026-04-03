@@ -88,3 +88,37 @@ align-items: start;
 margin-top: 36px;                                                                                                    
 }
 }
+/* ABOUT THE GAME */
+.about-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+.about-subtitle{
+    margin-bottom: 56px;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.about-conatiner {
+flex-direction: row;
+        align-items: start;
+        gap: 64px;
+        padding-left: 148px;
+        padding-right: 148px;
+    }
+.about-subtitle{
+  text-align: left;
+  margin-bottom: 0;
+}
+.about-text{
+    width: 772px;
+    text-align: left;
+}
+.desk{
+    display: block;
+}
+}
