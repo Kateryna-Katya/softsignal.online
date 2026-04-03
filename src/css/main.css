@@ -251,7 +251,7 @@ justify-content: center;
 .features-item{
     flex-direction: column;
     width: 200px;
-        height: 200px;
+        height: auto;
         gap: 16px;
         padding: 32px;
         text-align: center;
@@ -266,4 +266,71 @@ justify-content: center;
         background-position: bottom 60px center;
 height: 1300px;
 }
+}
+/* CREATE YOUR OWN PUZZLE */
+.create-section{
+    background: #eee;
+}
+.create-text{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 253px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.create-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+        padding: 32px 24px;
+        width: 343px;
+        height: 626px;
+        background: #666977;
+        gap: 16px;
+}
+.create-text-wrapper{
+display: flex;
+flex-direction: column;
+gap: 16px;
+color: #eee;
+width: 295px;
+}
+.create-text-three{
+    font-weight: 300;
+        font-size: 10px;
+        letter-spacing: -0.02em;
+}
+@media only screen and (min-width: 1440px) {
+   .create-text{
+    margin-bottom: 48px;
+    font-size: 24px;
+    width: 100%;
+   }
+   .create-wrapper{
+    padding: 32px 48px;
+        width: 887px;
+        height: 264px;
+        flex-direction: row;
+        gap: 32px;
+        margin-left: auto;
+        margin-right: auto;
+   }
+.create-text-wrapper{
+    width: 327px;
+}
+.create-text-three{
+font-size: 12px;
+}
+}
+/* WHY PLAY SLIDING PUZZLE? */
+.features-text{
+    margin-top: 0;
+}
+@media only screen and (min-width: 1440px) {
+  .why-item-text{
+    font-size: 16px;
+    width: 146px;
+  }
 }
