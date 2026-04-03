@@ -122,3 +122,76 @@ flex-direction: row;
     display: block;
 }
 }
+/* HOW TO PLAY */
+.how-section{
+    background: #eee;
+}
+.how-text{
+    font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        color: #111;
+        width: 313px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+}
+
+.how-container .swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+margin-top: 100px;
+}
+/* звичайні точки */
+.how-container .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #666977;
+    border-radius: 50%;
+    opacity: 1 ;
+    margin:0;
+    transition: all 0.3s ease;
+}
+
+/* активна */
+.how-container .swiper-pagination-bullet-active {
+    width: 24px;
+    height: 24px;
+    background: #34363f;
+}
+.mySwiper .swiper-slide{
+    border: 1px solid #34363f;
+        border-radius: 12px;
+        padding: 32px;
+        width: 260px;
+        height: 324px;
+background: #666977;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+}
+.how-slide-text{
+    font-family: "Barlow Semi Condensed", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #eee;
+        width: 196px;
+}
+@media only screen and (min-width: 1440px) {
+  .mySwiper .swiper-wrapper{
+gap: 32px;
+justify-content: center;
+  }
+  .how-text{
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+}
