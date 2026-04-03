@@ -138,13 +138,15 @@ flex-direction: row;
         margin-right: auto;
         margin-bottom: 32px;
 }
-
+.how-container{
+    padding-bottom: 140px;
+}
 .how-container .swiper-pagination {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
-margin-top: 100px;
+padding-bottom: 60px;
 }
 /* звичайні точки */
 .how-container .swiper-pagination-bullet {
@@ -194,4 +196,74 @@ justify-content: center;
     font-size: 24px;
     margin-bottom: 48px;
   }
+  .how-container .swiper-pagination{
+    display: none;
+  }
+   .how-container{
+    padding-bottom: 80px;
+   }
+}
+/* FEATURES */
+.features-text{
+    margin-top: 32px;
+    margin-bottom: 32px;
+        font-weight: 300;
+        font-size: 20px;
+}
+.features-section{
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom 40px center;
+    background-size: 100% 275px;
+    height: 1100px;
+}
+.features-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.features-item{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(102, 105, 119, 0.4);
+        border-radius: 12px;
+        padding: 16px 16px 16px 20px;
+        width: 343px;
+        height: 64px;
+        background: #eee;
+        gap: 12px;
+        text-align: left;
+}
+.features-item img{
+    width: 32px;
+    height: 32px;
+}
+@media only screen and (min-width: 1440px) {
+   .features-text{
+    margin-bottom: 48px;
+    font-size: 24px;
+   }
+.features-list{
+    flex-direction: row;
+    gap: 32px;
+}
+.features-item{
+    flex-direction: column;
+    width: 200px;
+        height: 200px;
+        gap: 16px;
+        padding: 32px;
+        text-align: center;
+}
+.features-item img {
+    width: 48px;
+    height: 48px;
+}
+.features-section{
+    background-image: url("/img/features/desk.png");
+        background-size: 100% 707px;
+        background-position: bottom 60px center;
+height: 1300px;
+}
 }
