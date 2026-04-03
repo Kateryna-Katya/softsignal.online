@@ -46,7 +46,7 @@ margin-bottom: 16px;
         width: 240px;
         height: 64px;
 box-shadow: 2px 2px 2px 0 rgba(153, 156, 174, 0.3);
-background: linear-gradient(90deg, #34363f, #4a4d5a);
+background: linear-gradient(90deg, #34363f, #34363f);
     transition: background 0.3s ease-in-out;
 }
 .home-link:hover,
