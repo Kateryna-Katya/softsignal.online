@@ -1,0 +1,98 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 56px 50px;
+background: #111;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+
+.cookie-class {
+font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #eee;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+width: 245px;
+    height: 34px;
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+border-radius: 4px;
+    padding: 8px 10px;
+    width: 101px;
+    height: 34px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #eee;
+    box-sizing: border-box;
+    border: none;
+font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #111;
+}
+
+.btn-decline {
+    border: none;
+border-bottom: 1px solid #eee;
+    padding: 8px 10px;
+    width: 104px;
+    height: 34px;
+font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #eee;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 80px 195px;
+        height: auto;
+    }
+
+    .mob {
+        display: none;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cookie-class {
+        width: 100%;
+
+    }
+
+    .cookie-buttons {
+        width: 268px;
+        margin-top: 0;
+        gap: 24px;
+    }
+
+}
